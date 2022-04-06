@@ -1,0 +1,121 @@
+* {
+  margin: auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*body: cuerpo de la página*/
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    38deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(235, 18, 197, 0.04245448179271705) 0%,
+    rgba(218, 0, 255, 1) 100%
+  );
+}
+
+/*cabecera*/
+header {
+  background-color: HEX #aa0dee7a RGB 175, 122, 197 HSL 283, 39%, 63%;
+}
+header h1 {
+  font-family: "Smokum", cursive;
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+}
+header h1 :hover{
+  color: rgb(236, 13, 13);
+}
+
+/*navegador*/
+nav {
+  min-height: 20px;
+}
+nav p {
+  display: inline;
+  float: right;
+  font-size: 15px;
+}
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: #ee0fab;
+  background-color: #f5e1f5;
+  margin: 10px;
+}
+nav a:hover,
+nav a:active {
+  text-decoration: none;
+  color: #0f26f6;
+  background-color: #f1e5e3;
+  margin: 10px;
+}
+
+/*principal: section:*/
+section {
+  width: 75%;
+  background-color: #e9afe9;
+  float: left;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.container{
+  width: 100%;
+  margin: auto;
+}
+.columnas-3{
+  width: 33,333%;
+  float: left;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+.columnas img{
+  width:100%;
+}
+/*artículos: article*/
+article {
+  margin: 5 10px;
+  padding: 5 10px;
+  background-color: white;
+  border: 3px double aqua;
+}
+article p {
+  font-size: 15px;
+}
+#attention {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(7, 7, 243);
+}
+#attention :hover{
+  color: #ee0fab;
+}
+p {
+  font-size: 10px;
+}
+
+/*propaganda: aside*/
+aside {
+  width: 25%;
+  float: left;
+}
+#anuncio1 {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid blue;
+  background-color: white;
+}
+
+/*pie de página: footer*/
+footer {
+  clear: both;
+  text-align: center;
+}
+a :hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
