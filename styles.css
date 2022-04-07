@@ -24,7 +24,7 @@ header h1 {
   padding: 10px;
   font-size: 35px;
 }
-header h1 :hover{
+header h1 :hover {
   color: rgb(236, 13, 13);
 }
 
@@ -58,22 +58,22 @@ section {
   background-color: #e9afe9;
   float: left;
 }
-p{
-  font-family: 'Times New Roman', Times, serif;
+p {
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
 }
-.container{
+.container {
   width: 100%;
   margin: auto;
 }
-.columnas-3{
-  width: 33,333%;
+.columnas-3 {
+  width: 33.333%;
   float: left;
   padding: 20px 20px;
   box-sizing: border-box;
 }
-.columnas img{
-  width:100%;
+.columnas img {
+  width: 100%;
 }
 /*artículos: article*/
 article {
@@ -91,7 +91,7 @@ article p {
   font-size: 20px;
   color: rgb(7, 7, 243);
 }
-#attention :hover{
+#attention :hover {
   color: #ee0fab;
 }
 p {
@@ -103,13 +103,9 @@ aside {
   width: 25%;
   float: left;
 }
-#anuncio1 {
-  margin: 20px;
-  padding: 10px;
-  border: 2px solid blue;
-  background-color: white;
+aside img {
+  padding: 10px 10px;
 }
-
 /*pie de página: footer*/
 footer {
   clear: both;
